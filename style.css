@@ -1,0 +1,125 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  background: url(/img/bg.jpg);
+  font-family: "Baloo 2", cursive;
+}
+
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 55px;
+  top: 14px;
+}
+
+.left img {
+  width: 115px;
+}
+
+.left div {
+  text-align: center;
+  line-height: 5px;
+  font-size: 22px;
+}
+.mid {
+  /* border: 2px solid rgb(0, 132, 55); */
+  display: block;
+  width: 37%;
+  margin: 20px auto;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  /* border: 2px solid blue; */
+}
+
+.btn {
+  font-family: "Baloo 2", cursive;
+  margin: 0px 7px;
+  background-color: black;
+  color: white;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(50, 53, 54);
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 22px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 18px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: gray;
+  text-decoration: underline;
+}
+.container {
+    /* border: 3px solid red; */
+    margin: 80px 0px;
+}
+.cont-left {
+  /* border: 2px solid rgb(104, 128, 10); */
+  display: inline-block;
+  width: 33%;
+  margin: 60px 100px;
+  padding: 5px 40px;
+}
+
+.cont-right {
+  border: 2px solid rgb(255, 255, 255);
+  display: inline-block;
+  width: 33%;
+  margin: 10px 59px;
+  padding: 22px 38px;
+  border-radius: 10px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 450px;
+    margin: 11px auto;
+    padding: 1px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: "Baloo 2", cursive;
+}
+.cont-right button {
+    display: block;
+    width: 455px;
+    margin: 20px auto;
+    background-color: rgb(80, 67, 118);
+}
+
+.cont-right h1{
+    text-align: center;
+    font-size: 27px;
+    font-family: "Baloo 2", cursive;
+}
+.cont-left h1 {
+    font-size: 40px;
+    font-family: "Baloo 2", cursive;
+}
+.cont-left p {
+    font-size: 25px;
+    font-family: "Baloo 2", cursive;
+    margin: 0px 0px 0px 12px;
+}
